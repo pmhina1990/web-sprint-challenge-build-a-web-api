@@ -12,6 +12,6 @@ server.use('/api/actions', actionRouter)
 server.use('/api/projects', projectsRouter)
 
 server.get('/', (_, res) => {
-    res.send(`<h1>HAPPY TO BE HERE`)
+    res.send(`<h1>HAPPY TO BE HERE, LOVE YOU LAMBDA`)
 })
 module.exports = server;
